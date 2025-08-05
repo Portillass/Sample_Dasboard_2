@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Style Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            YT Dashboard
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+            <button aria-label="Search">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="9" cy="9" r="7" stroke="#222" stroke-width="2" fill="none"/>
+                    <line x1="14.5" y1="14.5" x2="19" y2="19" stroke="#222" stroke-width="2"/>
+                </svg>
+            </button>
+        </div>
+        <div class="user-actions">
+            <button aria-label="Upload">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="9" y="3" width="2" height="10" fill="#222"/>
+                    <polygon points="10,1 15,6 13.6,7.4 11,4.8 11,13 9,13 9,4.8 6.4,7.4 5,6" fill="#222"/>
+                </svg>
+            </button>
+            <button aria-label="Notifications">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 18a2 2 0 0 0 2-2H8a2 2 0 0 0 2 2zm6-4V9a6 6 0 1 0-12 0v5l-2 2v1h16v-1l-2-2z" fill="#222"/>
+                </svg>
+            </button>
+            <span class="avatar user-avatar" aria-label="User">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="14" cy="10" r="6" stroke="#222" stroke-width="2" fill="#fff"/>
+                    <ellipse cx="14" cy="21" rx="8" ry="5" stroke="#222" stroke-width="2" fill="#fff"/>
+                </svg>
+            </span>
+        </div>
+    </header>
+    <div class="container">
+        <nav class="sidebar">
+            <ul>
+                <li><span class="sidebar-icon" aria-label="Home">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 10L10 3L18 10V17C18 17.55 17.55 18 17 18H3C2.45 18 2 17.55 2 17V10Z" stroke="#222" stroke-width="2" fill="#fff"/>
+                    </svg>
+                </span> Home</li>
+                <li><span class="sidebar-icon" aria-label="Trending">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3 17L9 11L13 15L19 9" stroke="#fff" stroke-width="2" fill="none"/>
+                        <circle cx="15" cy="9" r="2" fill="#fff"/>
+                    </svg>
+                </span> Trending</li>
+                <li><span class="sidebar-icon" aria-label="Subscriptions">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="3" y="5" width="14" height="10" rx="2" stroke="#222" stroke-width="2" fill="#fff"/>
+                        <polygon points="9,8 14,10 9,12" fill="#222"/>
+                    </svg>
+                </span> Subscriptions</li>
+                <li><span class="sidebar-icon" aria-label="Library">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="3" y="4" width="14" height="12" rx="2" stroke="#222" stroke-width="2" fill="#fff"/>
+                        <rect x="6" y="7" width="2" height="6" fill="#222"/>
+                        <rect x="10" y="7" width="2" height="6" fill="#222"/>
+                        <rect x="14" y="7" width="2" height="6" fill="#222"/>
+                    </svg>
+                </span> Library</li>
+                <li><span class="sidebar-icon" aria-label="History">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="10" cy="10" r="8" stroke="#222" stroke-width="2" fill="#fff"/>
+                        <path d="M10 6V10L13 13" stroke="#222" stroke-width="2"/>
+                    </svg>
+                </span> History</li>
+            </ul>
+        </nav>
+        <main class="main-content">
+            <h1>Welcome to the YouTube Style Dashboard</h1>
+            <div class="video-grid">
+                <!-- Sample video cards -->
+                <div class="video-card">
+                    <img src="https://i.ytimg.com/vi/ScMzIvxBSi4/hqdefault.jpg" alt="Video Thumbnail">
+                    <div class="video-info">
+                        <h3>Sample Video Title</h3>
+                        <p>Channel Name • 1M views • 1 day ago</p>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <img src="https://i.ytimg.com/vi/ysz5S6PUM-U/hqdefault.jpg" alt="Video Thumbnail">
+                    <div class="video-info">
+                        <h3>Another Video</h3>
+                        <p>Another Channel • 500K views • 2 days ago</p>
+                    </div>
+                </div>
+                <!-- Add more video cards as needed -->
+            </div>
+        </main>
+    </div>
+    <footer class="footer">
+        <p>© 2025 YouTube Style Dashboard Sample</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
