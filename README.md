@@ -25,3 +25,6 @@ A YouTube-style dashboard sample built with HTML, CSS, and JavaScript.
 ![Sample Dashboard Screenshot](2.png)
 
 ---
+![Sample Dashboard Screenshot](3.png)
+
+---
